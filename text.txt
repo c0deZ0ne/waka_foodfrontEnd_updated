@@ -1,0 +1,12 @@
+https://wakafoods.herokuapp.com
+
+abuja_kitchen@wakafoods.com
+123456
+
+
+
+
+
+/// put this in the .env file you create//..
+
+REACT_APP_API_URL="https://wakafoods.herokuapp.com/waka-api"

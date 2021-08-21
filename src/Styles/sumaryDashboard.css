@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+.myStartTable {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.myTable {
+    background: white;
+    border-radius: 10px;
+}
+
+.myHeadTable {
+    color: black!important;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.myTbody {
+    color: #3E4954;
+    font-size: 13px!important;
+}
+
+.myThead {
+    border: whitesmoke solid 1px;
+}
+
+.authCash {
+    background: whitesmoke;
+    border-radius: 3px;
+    width: 50px;
+    padding: 8px;
+}
+
+
+/* the card section */
+
+.mySection {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.myBox {
+    width: 65px;
+    height: 65px;
+    background: #CCCCCC;
+    border-radius: 5px;
+}
+
+
+/* my card style */
+
+.myDashHead {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.myDash {
+    color: #EDA345;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.myP {
+    font-size: 12px;
+    text-align: start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.myPp {
+    color: #EDA345;
+    text-align: start;
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.myPpp {
+    color: #404040;
+    font-size: 13px;
+    text-align: start;
+    font-weight: bold;
+}
+
+#myLastDiv {
+    background: #361987;
+    border-radius: 10px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.firstDiv {
+    background: #C4C4C4;
+    border-radius: 50%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.myH {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.myHp {
+    font-size: 10px;
+    color: #DADADA;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.myFirstStar {
+    color: #FF7A00;
+    outline: 0;
+    padding: 0;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+}
+
+.myNumb {
+    color: #ffffff!important;
+    margin-left: 5px;
+}
+
+.myCard {
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+}
+
+.myNextBg {
+    background: #EDA345;
+}
+
+
+/* reviews section */
+
+.reviews {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.myViewFirstH {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.myViewFirstHp {
+    font-size: 15px;
+    text-align: start;
+    color: #B0B4B8;
+    margin-left: 10px;
+}
+
+.myViewDrop {
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.myViewDropA {
+    font-size: 11px;
+    font-weight: bold;
+    background: #F4F5F9;
+    margin-left: 55%;
+}
+
+.MyDivPic {
+    margin-left: 10px;
+}
+
+.MyJam {
+    font-size: 16px;
+    color: #3E4954;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+.myJamP {
+    font-size: 10px;
+    text-align: start;
+    margin-left: 2px;
+    color: #B0B4B8;
+}
+
+.mySide {
+    background: #FFF0ED;
+    border-radius: 10px;
+    width: 90px;
+    margin-left: 100%;
+    margin-top: 30px;
+}
+
+.mySideP {
+    font-size: 12px;
+    color: #FF6D4D;
+}
+
+.mySecondSide {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 95px;
+    text-align: start;
+    color: #4A545F;
+}
+
+.mySecondStar {
+    color: #EDA345;
+    outline: 0;
+    padding: 0;
+    text-align: start;
+    font-size: 12px;
+}
+
+.myStar {
+    font-size: 12px;
+    color: #D3D6E4;
+}
+
+.myStarN {
+    font-weight: bold;
+    color: #3E4954;
+    margin: 0;
+}
+
+.Review {
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+}
+
+
+/* darkCard section */
+
+.darkCard {
+    background: #3E4954;
+    border-radius: 15px;
+}
+
+.fireDiv {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.fireH {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.myFire {
+    color: #FCFBCF;
+    color: #FD3906;
+}
+
+.sub {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.subP {
+    font-size: 10px;
+    color: #80868D;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.textCard {
+    color: #F3F4F4;
+    font-size: 13px;
+    display: block;
+    text-align: start;
+}
+
+.offBg {
+    color: #596B7D;
+    background: #25303C;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    height: 20px;
+}
+
+.extraCard {
+    background: #FF6D4D;
+    width: 16.1rem;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: -3px;
+    margin-left: -2px;
+    border-radius: 15px;
+}
+
+.extraCardH {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.extraCardFa {
+    color: #fff;
+    outline: 0;
+    padding: 0;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.extraCardFaLast {
+    color: #FF7F63;
+    outline: 0;
+    padding: 0;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+
+/* media query */
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+
+}
+
+
+/* display 3 */
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        /* position: relative; */
+        width: fit-content;
+        transform: translateX(-33.333%);
+    }
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(65.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}

@@ -1,0 +1,31 @@
+#loading {
+   background: url("../../assets/images/ajax-loader.gif") no-repeat center center;
+  background-color: rgba(0, 0, 0, 0.377);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.loading_brand{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(221, 174, 87);
+  font-size: 24px;
+  font-weight: 700;
+  
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+
+  
+}
+
+@-webkit-keyframes rightThenLeft {
+  0%   {margin-right:0;}
+  50%  {margin-right:100%;}
+  100% {margin-right:0;}
+}

@@ -1,0 +1,9 @@
+@import "./bootstrap.min.css";
+@import "./pages/login.css";
+@import "./pages/kitchendashboard.css";
+
+@import "./components/alert.css";
+@import "./components/preloader.css";
+@import './components/summarycontent.css';
+
+@import './components/createsubcategory.css';

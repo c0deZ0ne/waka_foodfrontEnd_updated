@@ -1,0 +1,39 @@
+
+.main-input{
+    width: 300px;
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+}
+.Form-body form{
+    /* margin-top: 30%; */
+    /* padding: 20px; */
+}
+.Form-body{
+    /* margin:auto; */
+    background-color: orange;
+    width: 350px;
+    border-radius: 10px;
+}
+.Form-body button{
+    padding: 8px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 23, 23);
+    border: 0;
+    border-radius: 3px;
+    margin-top: 30px;
+
+}
+.Form-body button:hover{
+    padding: 8px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 3px;
+}
+
+
+

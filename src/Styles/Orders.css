@@ -1,0 +1,197 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #F9F9F9;
+  padding: 25px;
+}
+body p{
+  padding: 10px 0;
+
+}
+body span{
+  color: orange;
+}
+.main-body{
+  display: flex;
+}
+/* left widget styling starts */
+.left-widget{
+  flex: 0.5;
+  border-radius: 10px;
+}
+.right-widget{
+  flex: 2;
+}
+#white{
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+#black{
+  background-color: #3F4953;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 13px 13px 0 0;
+  margin-top: -1.5vh;
+}
+#red{
+  background-color: #FE6D49;
+  color: white;
+  padding: 20px;
+  border-radius: 13px;
+  margin-top: -1.5vh;
+}
+.left-widget #img-circle{
+  background-color: rgb(170, 170, 170);
+  padding: 40px ;
+  border-radius: 80px;
+  width: 7vw;
+  margin-left: 3.5vw;
+}
+.left-widget #img-circle i{
+  font-size: 25px;
+}
+.left-widget #white h5{
+  padding: 7px 0;
+}
+.left-widget #botn{
+  background-color:#FAFBFF;
+  padding: 7px 12px;
+  border: none;
+  color: orange;
+  border-radius: 5px;
+}
+.left-widget #black h5{
+  padding: 0 0 7px 0;
+}
+.left-widget #red {
+  display: flex;
+}
+.left-widget #red p{
+  margin-left: 5px;
+}
+.left-widget #img-circle2{
+  background-color: white;
+  padding: 15px ;
+  border-radius: 3vw;
+  width: 40px;
+  height: 45px;
+}
+.left-widget #img-circle2 i{
+  color: #FE6D49;
+  margin-left: -0.5vw;
+}
+/* second left widget styling starts */
+.left-widget-second{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.second-widget{
+  display: flex;
+  padding: 10px;
+} 
+.left-widget-second .dot{
+  padding-right:10px;
+  z-index: 2;
+}
+.left-widget-second .line{
+  width:3.9vw;
+  transform: rotate(90deg);
+  position: relative;
+  left: -0.7vw;
+  color: orange;
+  background-color: orange;
+  height: 0.5vh;
+}
+
+/* right widget styling starts */
+.right-widget table{
+  background-color: white;
+  margin-left: 25px;
+  width: 97%;
+  border-radius: 10px;
+}
+.right-widget th,td{
+  text-align: left;
+  padding: 10px;
+}
+.right-widget td{
+  border-bottom: solid rgb(182, 182, 182) 1px;
+}
+.right-widget td img{
+  width: 6vw;
+  height: 10vh;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.right-widget #food-img{
+  display: flex;
+}
+.right-widget th{
+  border-bottom: rgb(184, 184, 184) solid 1px;
+}
+.right-widget #x-icon-box{
+  display: flex;
+}
+.right-widget #x-icon i{
+  color: red;
+  border: red solid 1px;
+  padding: 3px;
+  border-radius: 15px;
+  margin-left: 2vw;
+}
+/* tracking order styling starts */
+.third-widget{
+  background-color: white;
+  margin: 30px 0 0 25px;
+  width: 97%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.third-widget img{
+  width: 70vw;
+  height: 50vh;
+}
+.third-widget #map{
+  color: rgb(182, 179, 179);
+  font-size: 5vw;
+}
+.third-widget h5{
+  color: black;
+  position: absolute;
+  bottom: 4vh;
+  left: 0.4vw;
+}
+.third-widget #indicator{
+  position: absolute;
+  bottom: -265%;
+  right: 26vw;
+}
+.third-widget .small-box{
+  display: flex;
+  margin-right: 10vw;
+}
+.third-widget .small-box i{
+  font-size: 18px;
+  position: relative;
+  bottom:10px;
+  right: 10px;
+}
+.third-widget .img-circle3{
+  background-color: orange;
+  padding: 20px ;
+  border-radius: 20px;
+  width:3vw ;
+  height: 5vh;
+  margin: 10px;
+}
+.third-widget .footer-details{
+  margin: 10px 0 10px 0;
+}

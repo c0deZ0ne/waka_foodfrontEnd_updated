@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+
+}
+.analysisCoverDiv{
+    background-color: whitesmoke;
+    max-width: 80vw;
+    top: 10vh;
+    position: relative;
+}
+.data_welcome{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 20px;
+    opacity: 0.9;
+
+    
+    }
+    .data_welcome-col1{
+        flex: 1;
+        /* background-color: whitesmoke; */
+        padding-left: 20px;
+        align-items: center;
+        box-sizing: border-box;
+        opacity: 0.8;
+        /* box-shadow: rgba(0,0,6, 0.5); */
+        z-index: 1;
+
+    }
+    .data_welcome-col2{
+        padding-right: 20px;
+        align-items: center;
+        box-sizing: border-box;
+        /* box-shadow: rgba(0,0,6, 0.5) 2px 3px 5px; */
+        z-index: 1;
+        display: flex;
+
+    }
+    .filter{
+        flex:1;
+        /* background-color: white; */
+        /* margin-right:20px ; */
+    }
+    .datemain{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        background-color: white;
+        font-size: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+.dateicon{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.fourbox{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* box-shadow: rgba(0,0,6, 0.5) 2px 3px 5px;
+    z-index: 1; */
+
+
+}
+.box1 {
+    background-color: white;
+    display: flex;
+    margin: 20px;
+    box-shadow: rgba(0,0,6, 0.5) 2px 3px 5px;
+    z-index: 1;
+    border-radius: 5%;
+    padding: 20px;
+}
+.div_icon{
+    display: flex;
+    position: relative;
+    flex: 1;
+    top: 25%;
+    box-sizing: border-box;
+    
+}
+.span_icon{
+    position: absolute;
+    background-color: rgba(0,0,6, 0.5);
+    text-align: center;
+    top:20%;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    box-shadow: rgba(0,0,6, 0.5) 2px 3px 5px;
+    
+
+}
+.faIcon{
+    font-size: 45px;
+    margin: 25%;
+    align-items: center;
+}
+.menutext{
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+.number_price{
+    background-color:transparent;
+    position: relative;
+    top: 0px;
+    display: block;
+}
+.icon_text{
+    position: relative;
+    top: 1px;
+    display: block;
+    font-size: medium;
+}
+.bottom_icon{
+    position: relative;
+    display: flex;
+}
+.percent{
+    font-size: medium;
+    position: relative;
+    margin: 10px;
+    
+}
+.iconPoint{
+    position: relative;
+    margin: 10px;
+    top: 5px;
+}

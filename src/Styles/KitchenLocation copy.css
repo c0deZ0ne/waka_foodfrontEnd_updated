@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tah;
+    font-size: 15px;
+    background-color:whitesmoke;
+    color: grey;
+    opacity: 0.9;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+   
+}
+.heading h2{
+    text-align: center;
+    margin: 1%;
+   
+}
+.heading h3{
+    text-align: center;
+    margin: 1px;
+   
+}
+.color-text{
+    color: orange;
+}
+.input-container{
+    padding: 10px;
+}
+.main-input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.Form-body form{
+    margin-top: 1%;
+    padding: 20px;
+}
+.Form-body{
+    margin:auto;
+    background-color: orange;
+    width: 350px;
+    /* padding: 17px 10px 17px 10px; */
+    border-radius: 10px;
+}
+.Form-body button{
+    padding: 8px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 23, 23);
+    border: 0;
+    border-radius: 3px;
+}
+.Form-body button:hover{
+    padding: 8px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 3px;
+}
+
+.role_option{
+    background-color: red;
+    outline: none;
+    padding: 10%;
+
+}
+.popUps_div{
+    background-color: red;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+
+}

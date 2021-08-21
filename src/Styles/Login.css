@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+#myLogin{
+
+    position: relative;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%,-50%);
+    /* height:40%;*/ 
+    display:flex;
+    width: fit-content;
+    height: -20vh;
+    flex-direction: column;
+    background-color:transparent;
+    box-shadow: 0 0 17px rgba(0,0,0, 0.35) ;
+    z-index: 110;
+    transition-duration: 1s ease;
+}
